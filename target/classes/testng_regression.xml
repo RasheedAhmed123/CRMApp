@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+  
+<suite name="CRM ApplicationTestAutomationSuite" verbose="1" >
+  <test name="CRM Application Tests" >
+          
+    <classes>
+       <class name="com.qa.tests.HomePageTest" />
+    </classes>
+  </test>
+</suite>

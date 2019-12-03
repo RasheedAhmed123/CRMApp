@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CRM ApplicationTestAutomationSuite]">
+  <test thread-count="5" name="CRM Application Tests(failed)">
+    <classes>
+      <class name="com.qa.tests.HomePageTest">
+        <methods>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.tests.HomePageTest -->
+    </classes>
+  </test> <!-- CRM Application Tests(failed) -->
+</suite> <!-- Failed suite [CRM ApplicationTestAutomationSuite] -->
